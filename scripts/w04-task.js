@@ -67,13 +67,7 @@ const info = {
     h.appendChild(texth);
     
     /* Places Lived DataList */
-    document.getElementById("places-lived").appendChild(y);
-    document.getElementById("places-lived").appendChild(x);
-    document.getElementById("places-lived").appendChild(p);
-    document.getElementById("places-lived").appendChild(z);
-    document.getElementById("places-lived").appendChild(k);
-    document.getElementById("places-lived").appendChild(h);
-
+    
 
 
 
