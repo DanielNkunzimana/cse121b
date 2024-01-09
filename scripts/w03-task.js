@@ -1,8 +1,14 @@
 // Function declaration for 'add'
-function add(number1, number2) {
-    return number1 + number2;
+function add() {
+    var number1 = document.getElementById("add1").innerHTML
+    var number2 = document.getElementById("add2").innerHTML
+    var sum = parseInt(number1) + parseInt(number2)
+    console.log(sum)
+    var cont = document.getElementById("sum").innerText
+    console.log(cont)
+    
 }
-
+add();
 function addNumbers() {
     var num1 = parseFloat(document.getElementById('add1').value);
     var num2 = parseFloat(document.getElementById('add2').value);
@@ -15,7 +21,7 @@ function addNumbers() {
         document.getElementById('sum').textContent = result;
     }
 }
-
+addNumbers();
 document.getElementById('addButton').addEventListener('click', function (event) {
     if (event.target.id === 'addButton') {
         addNumbers();
@@ -39,7 +45,7 @@ function subtractNumbers() {
         document.getElementById('difference').textContent = result;
     }
 }
-
+subtractNumbers();
 document.getElementById('subtractButton').addEventListener('click', function (event) {
     if (event.target.id === 'subtractButton') {
         subtractNumbers();
@@ -63,7 +69,7 @@ function multiplyNumbers() {
         document.getElementById('product').textContent = result;
     }
 }
-
+multiplyNumbers();
 document.getElementById('multiplyButton').addEventListener('click', function (event) {
     if (event.target.id === 'multiplyButton') {
         multiplyNumbers();
@@ -87,7 +93,7 @@ function divideNumbers() {
         document.getElementById('quotient').textContent = result;
     }
 }
-
+divideNumbers();
 document.getElementById('divideButton').addEventListener('click', function (event) {
     if (event.target.id === 'divideButton') {
         divideNumbers();
