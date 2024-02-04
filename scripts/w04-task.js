@@ -3,10 +3,10 @@
 /* Profile Object */
 
 const myProfile = {};
-myProfile.name = "Daniel Nkunzimana"; // Replace with your actual name
-myProfile.photo = "images/myimage.jpg"; // Replace with your image path
-myProfile.favoriteFoods = ["potetoes", "fish", "pampkin", "fruits"]; // Replace with your favorite foods
-myProfile.hobbies = ["martial art movie","Reading", "Coding", "Hiking"]; // Replace with your hobbies
+myProfile.name = "Daniel Nkunzimana";
+myProfile.photo = "images/myimage.jpg";
+myProfile.favoriteFoods = ["potetoes", "fish", "pampkin", "fruits"];
+myProfile.hobbies = ["martial art movie","Reading", "Coding", "Hiking"];
 myProfile.placesLived = [];
 
 /* Populate Profile Object with placesLive objects */
